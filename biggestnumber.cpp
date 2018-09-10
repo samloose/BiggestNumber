@@ -1,15 +1,16 @@
-//Author:
+//Author: Sam Loose
 #include<iostream>
 
 int main()
 {
-  //declare variables here
-
+  int a;
+  int b;
   std::cout<<"Please enter a whole number:\n";
-  //get first input using std::cin>>
+  std::cin >> a;
 
   std::cout<<"Please enter another whole number:\n";
-  //get second input using std::cin>> again with a second variable
+  std::cin >> b;
+
 
   //determine if first or second is bigger and store that in a third variable
 
