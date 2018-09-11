@@ -1,24 +1,33 @@
 //Author: Sam Loose
 #include<iostream>
-
+using namespace std;
 int main()
 {
+
   int a;
   int b;
-  std::cout<<"Please enter a whole number:\n";
-  std::cin >> a;
+  int biggest;
+  cout<<"Please enter a whole number:"<< endl;
+  cin >> a;
 
-  std::cout<<"Please enter another whole number:\n";
-  std::cin >> b;
+  cout<<"Please enter another whole number:"<< endl;
+  cin >> b;
 
-
-  //determine if first or second is bigger and store that in a third variable
-
+  if (a > b){
+          biggest = a;
+  }
+  if (a < b){
+          biggest = b;
+  }
+  else {
+          std::cout<< a << endl;
+          cout<<"Those are the same number"<<endl;
+          return 0;
+  }
 
   std::cout<<"Of those two numbers, the biggest is: ";
-  //print out the variable representing the biggest number
-
-  std::cout<<std::endl<<"Thank you for playing.\n";
+  cout << biggest << endl;
+  std::cout<<std::endl<<"Thank you for playing."<< endl;
   
   return 0;
 }
