@@ -16,13 +16,13 @@ int main()
   if (a > b){
           biggest = a;
   }
-  if (a < b){
+  else {
           biggest = b;
   }
-  else {
-          cout<<"Those are the same number";
-          return 0;
-  }
+ // else {
+  //        cout<<"Those are the same number";
+   //       return 0;
+  //}
 
   std::cout<<"Of those two numbers, the biggest is: ";
   cout << biggest; 
