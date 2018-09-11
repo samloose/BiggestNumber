@@ -20,7 +20,6 @@ int main()
           biggest = b;
   }
   else {
-          std::cout<< a << endl;
           cout<<"Those are the same number"<<endl;
           return 0;
   }
